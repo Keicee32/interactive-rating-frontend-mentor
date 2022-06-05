@@ -4,7 +4,7 @@
 }
 
 body {
-    font-size: 15px;
+    font-size: 14px;
     background: hsl(216, 12%, 8%);
     font-family: 'Overpass', sans-serif;
 }
@@ -19,7 +19,7 @@ h1, h2 {
     max-width: 350px;
     width: 90%;
     margin: 100px auto 30px;
-    padding: 1em;
+    padding: 1.5em;
     background-color: hsl(213, 19%, 18%);
     color: hsl(217, 12%, 63%);
     border-radius: 10px;
