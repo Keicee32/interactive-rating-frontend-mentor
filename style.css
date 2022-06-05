@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    background: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+}
+
+h1, h2 {
+    margin: 1em 0;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+.container {
+    max-width: 350px;
+    width: 90%;
+    margin: 100px auto 30px;
+    padding: 1em;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(217, 12%, 63%);
+    border-radius: 10px;
+}
+
+.icon-star {
+    border-radius: 50%;
+    padding: 8px;
+    background-color: hsla(213, 19%, 23%);
+}
+
+.ratings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50%;
+    margin: 1.5em 0;
+}
+
+.ratings-level {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(213, 19%, 23%);
+}
+
+.ratings-level:hover,
+.ratings-level:focus {
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+/* .ratings-level: */
+
+.btn {
+    font-family: inherit;
+    font-weight: 700;
+    padding: 1em 9em;
+    border-radius: 40px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 1em;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.illustration {
+    display: block;
+    margin: 1em auto;
+}
+
+.card-appreciation {
+    text-align: center;
+    margin-top: 0;
+    transform: translate(0, -120%);
+}
+
+
+.card-rating {
+    margin: 1em 0;
+    border-radius: 50px;
+    color: hsl(25, 97%, 53%);
+}
+
+.hide {
+    visibility: hidden;
+}
