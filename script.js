@@ -4,20 +4,18 @@ let rating_selected = document.querySelector("#rating-selected")
 let cardAppreciation = document.querySelector('.card-appreciation')
 let card = document.querySelector('.card')
 
-console.log(cardAppreciation)
 
 ratings.forEach(element => {
-    let isClicked = false
 
     element.addEventListener('click', function() {
-        isClicked = true;
 
-        if(isClicked) {
-
-            element.style.backgroundColor = "hsl(216, 12%, 54%)"
-        } else {
-            element.style.backgroundColor = ""
+        for (let i = 0; i < ratings.length; i++) {
+            if (ratings[i].style.backgroundColor = "hsl(216, 12%, 54%)") {
+                ratings[i].style.backgroundColor = ""
+            }
         }
+
+        element.style.backgroundColor = "hsl(216, 12%, 54%)"
 
 
         button.addEventListener('click', function() {
